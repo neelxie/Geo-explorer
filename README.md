@@ -5,7 +5,7 @@ Six progressive phases each teach a core Leaflet/GIS concept — all in a single
 
 ## 🚀 Live Demo
 
-> Add your Vercel URL here after deployment
+> [click here](https://neelxie.github.io/Geo-explorer/)
 
 ## 📚 What Each Phase Teaches
 
