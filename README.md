@@ -112,5 +112,12 @@ map.on('locationfound', e => { /* e.latlng, e.accuracy */ })
 - Tile layers: OpenStreetMap, OpenTopoMap, ESRI World Imagery, Stadia Maps
 
 ---
+## Screenshots
+<img width="1908" height="954" alt="Screenshot from 2026-03-29 22-05-41" src="https://github.com/user-attachments/assets/ad552cc6-1962-4fd2-bdd4-5a57fd75d8ee" />
+<img width="1908" height="954" alt="Screenshot from 2026-03-29 22-06-28" src="https://github.com/user-attachments/assets/f2e1c8b7-d625-4c60-a49c-36c902233ff8" />
+<img width="1908" height="954" alt="Screenshot from 2026-03-29 22-06-40" src="https://github.com/user-attachments/assets/beebc8db-39ef-450e-9ffa-fc6f054c5737" />
+<img width="1908" height="954" alt="Screenshot from 2026-03-29 22-06-51" src="https://github.com/user-attachments/assets/5e2fd970-1574-4247-b100-5dfcaa3cc394" />
+<img width="1908" height="954" alt="Screenshot from 2026-03-29 22-07-02" src="https://github.com/user-attachments/assets/5aac41e3-2dd8-465b-94da-2093cc2314e8" />
 
-Built as a Leaflet GIS learning project • Kampala, Uganda 🇺🇬
+
+Leaflet GIS  project • Kampala, Uganda 🇺🇬
