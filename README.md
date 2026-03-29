@@ -52,22 +52,8 @@ npx serve .
 > ⚠️ Always use a local server — never open `index.html` directly as `file://`.
 > Tile providers and the Nominatim search API will be blocked by the browser otherwise.
 
-## 🌐 Deploying to Vercel
-
-This is a **static site** — no build step required.
-
-```bash
-# 1. Push to GitHub
-git init
-git add .
-git commit -m "feat: GeoExplorer Uganda — all 6 phases"
-git remote add origin https://github.com/YOUR_USERNAME/geoexplorer-uganda.git
-git push -u origin main
-
-# 2. Import on Vercel
-# → vercel.com → New Project → Import from GitHub
-# → Leave all build settings blank
-# → Click Deploy ✅
+## 🌐 Deploying to Github Pages
+https://neelxie.github.io/Geo-explorer/
 ```
 
 ## 📖 Leaflet API Quick Reference
