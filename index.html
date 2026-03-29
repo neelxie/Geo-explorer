@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GeoExplorer Uganda</title>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+  <!-- Leaflet Geocoder (Phase 6) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">⬡</span>
+        <span class="logo-text">GeoExplorer <em>Uganda</em></span>
+      </div>
+      <nav class="phase-nav" id="phaseNav">
+        <button class="phase-btn active" data-phase="1">1 · Basics</button>
+        <button class="phase-btn" data-phase="2">2 · Markers</button>
+        <button class="phase-btn" data-phase="3">3 · GeoJSON</button>
+        <button class="phase-btn" data-phase="4">4 · Layers</button>
+        <button class="phase-btn" data-phase="5">5 · Choropleth</button>
+        <button class="phase-btn" data-phase="6">6 · Interactive</button>
+      </nav>
+    </div>
+  </header>
+
+  <aside class="info-panel" id="infoPanel">
+    <div class="panel-header">
+      <h2 id="panelTitle">Phase 1: Map Basics</h2>
+      <p id="panelSubtitle">Tile layers, coordinates, zoom</p>
+    </div>
+    <div class="panel-body" id="panelBody">
+      <!-- Injected by JS per phase -->
+    </div>
+  </aside>
+
+  <main class="map-wrapper">
+    <div id="map"></div>
+    <div class="map-coords" id="mapCoords">Hover map for coords</div>
+  </main>
+
+  <!-- Leaflet -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <!-- Leaflet Geocoder -->
+  <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
